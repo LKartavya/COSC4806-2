@@ -1,9 +1,7 @@
 <?php
-
+require_once 'database.php';
   class User{
     
-  require_once 'database.php';
-
     public function getAllUsers(){
       $conn = db_connect();
       $statement = $conn->prepare("SELECT * FROM users");

@@ -1,5 +1,4 @@
-<? php
-
+<?php
    
    define('DB_HOST', '0lwxz.h.filess.io');
    define('DB_USER', 'COSC4806_freedomwho');
